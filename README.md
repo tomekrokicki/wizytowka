@@ -1,2 +1,2 @@
 # wizytowka
-Wizytowka
+Wizytówka
