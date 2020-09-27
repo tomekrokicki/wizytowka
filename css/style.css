@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}   
+
+body {
+    background: #2C2141;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    min-height: 100vh;
+}
+
+.person {
+    background: #F8F8F8;
+    border-radius: 16px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 32px;
+    width: 624px;
+}
+
+.person__description {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.person__image {
+    border-radius: 74px;
+    height: 148px;
+    width: 148px;
+}
+
+.person_names {
+    font-size: 36px;
+    margin: 0;
+}
+
+.person__position {
+    color: #545454;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.person__social {
+    list-style: none;
+}
