@@ -29,14 +29,29 @@ body {
     line-height: 22px;
 }
 
+.person__description--strong {
+    color: #ED6D05;
+    font-weight: normal;
+}
+
+.person__description--em {
+    color: darkgrey;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.person__header {
+    font-weight: normal;
+}
+
 .person__image {
     border-radius: 74px;
     height: 148px;
     width: 148px;
 }
 
-.person_names {
-    font-size: 36px;
+.person__names {
+    font-size: 32px;
     margin: 0;
 }
 
@@ -44,8 +59,9 @@ body {
     color: #545454;
     font-size: 18px;
     font-style: italic;
+    margin: 0;
 }
 
-.person__social {
-    list-style: none;
+.person__social-link {
+    color: #E20613;
 }
