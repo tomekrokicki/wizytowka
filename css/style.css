@@ -27,6 +27,7 @@ body {
 .person__description {
     font-size: 16px;
     line-height: 22px;
+    margin-bottom: 22px;
 }
 
 .person__description--strong {
@@ -42,6 +43,7 @@ body {
 
 .person__header {
     font-weight: normal;
+    margin-bottom: 24px;
 }
 
 .person__image {
@@ -62,6 +64,11 @@ body {
     margin: 0;
 }
 
+.person__social {
+    margin: 0;
+}
+
 .person__social-link {
     color: #E20613;
+    text-decoration: none;
 }
