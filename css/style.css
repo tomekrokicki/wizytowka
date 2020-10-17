@@ -24,6 +24,11 @@ body {
     width: 624px;
 }
 
+.person__data {
+    display: flex;
+    align-items: flex-start;
+}
+
 .person__description {
     font-size: 16px;
     line-height: 22px;
@@ -49,6 +54,7 @@ body {
 .person__image {
     border-radius: 74px;
     height: 148px;
+    margin-right: 32px;
     width: 148px;
 }
 
